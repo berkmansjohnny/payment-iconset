@@ -1,0 +1,84 @@
+:root {
+    --color-primary: #e74c3c;
+    --color-ash: #bdc3c7;
+    --color-truce: #FFF;
+    --color-abyss: ##2c3e50;
+    --iconsize: 75px;
+    --transition: all 0.3s ease-in-out;
+}
+
+::selection{
+    background-color: var(--color-primary);
+    color: var(--color-truce);
+}
+html, body {
+    background-color: #fff;
+    color: var(--color-abyss);
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Bree Serif', serif;
+}
+
+a{
+    color: var(--color-primary);
+}
+
+header{
+    background: var(--color-primary);
+    color: var(--color-truce);
+    position: relative;
+}
+
+.hero{
+    background: var(--color-primary);
+    color: var(--color-truce);
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+.absolute-center{
+    position: absolute;
+    top: calc(50% - 30px);
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title p{
+    margin: 0;
+}
+.icons{
+    color: var(--color-ash);
+}
+main{
+    position: relative;
+    background-color: var(--color-truce);
+    z-index: 1;
+    overflow-y: hidden;
+}
+main.--raised{
+    margin: -60px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.ghost{
+    display: none;
+}
+
+.payment-icons {
+    width: var(--iconsize);
+    height: var(--iconsize);
+    float: left;
+    margin-right: 10px;
+}
+
+.icon-2x{
+    width: calc(var(--iconsize)*2);
+    height: calc(var(--iconsize)*2);
+}
