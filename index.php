@@ -25,8 +25,8 @@
         <section class="row">
                 <div class="column-3">
                     <svg viewBox="0 0 50 50" class="payment-icons">
-                    <use xlink:href="#visa"></use>
-                </svg>
+                        <use xlink:href="#visa"></use>
+                    </svg>
                 <p>Visa</p>
             </div>
 
