@@ -32,30 +32,9 @@
 
             <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
-                    <use xlink:href="#paypal"></use>
-                </svg>
-                <p>Paypal</p>
-            </div>
-
-            <div class="column-3 center-y">
-                <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#maestro"></use>
                 </svg>
                 <p>Maestro</p>
-            </div>
-
-            <div class="column-3 center-y">
-                <svg viewBox="0 0 50 50" class="payment-icons">
-                    <use xlink:href="#bancontact"></use>
-                </svg>
-                <p>Bancontact</p>
-            </div>
-
-            <div class="column-3 center-y">
-                <svg viewBox="0 0 50 50" class="payment-icons">
-                    <use xlink:href="#americanexpress"></use>
-                </svg>
-                <p>American Express</p>
             </div>
 
             <div class="column-3 center-y">
@@ -67,23 +46,35 @@
 
             <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
-                    <use xlink:href="#ideal"></use>
+                    <use xlink:href="#bancontact"></use>
                 </svg>
-                <p>iDeal</p>
+                <p>Bancontact</p>
             </div>
 
             <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
-                    <use xlink:href="#transfer"></use>
+                    <use xlink:href="#transfer-en"></use>
+                </svg>
+                <p>Transfer</p>
+            </div>
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#transfer-nl"></use>
                 </svg>
                 <p>Overschrijving</p>
             </div>
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#transfer-fr"></use>
+                </svg>
+                <p>Virement bancaire</p>
+            </div>
 
             <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
-                    <use xlink:href="#qrcode"></use>
+                    <use xlink:href="#paypal"></use>
                 </svg>
-                <p>QR-Code</p>
+                <p>Paypal</p>
             </div>
 
             <div class="column-3 center-y">
@@ -98,6 +89,27 @@
                     <use xlink:href="#cbc-mobile"></use>
                 </svg>
                 <p>CBC-mobile</p>
+            </div>
+
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#americanexpress"></use>
+                </svg>
+                <p>American Express</p>
+            </div>
+
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#ideal"></use>
+                </svg>
+                <p>iDeal</p>
+            </div>
+
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#qrcode"></use>
+                </svg>
+                <p>QR-Code</p>
             </div>
 
             <div class="column-3 center-y">
@@ -126,6 +138,19 @@
                     <use xlink:href="#giropay"></use>
                 </svg>
                 <p>Giropay</p>
+            </div>
+
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#ing-homepay"></use>
+                </svg>
+                <p>Ing homepay</p>
+            </div>
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#ing-homepay-alt"></use>
+                </svg>
+                <p>Ing homepay alt</p>
             </div>
         </section>
 
