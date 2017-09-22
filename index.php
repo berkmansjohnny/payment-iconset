@@ -18,6 +18,7 @@
         <div class="title absolute-center">
             <h1>Payment icons</h1>
             <p>Your iconset. Ready-to-use.</p>
+            <a href="https://github.com/kingjohnny/payment-iconset/archive/master.zip" class="font-s">Download the icon-set</a>
         </div>
     </header>
     <main class="icons --raised inset-xl">
@@ -203,6 +204,9 @@
                 <use xlink:href="#visa"></use>
             </svg>
         </section>
+
+        <h2>Let's get started</h2>
+        <a href="https://github.com/kingjohnny/payment-iconset/archive/master.zip">Download the icon-set</a>
     </main>
 </body>
 </html>
