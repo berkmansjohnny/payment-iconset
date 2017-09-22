@@ -6,12 +6,19 @@ Sharp svg icons of several payment possibilities that every webshop needs.
 
 ##  Quick start
 
-    To get started, download and include the "payment sprite svg" in the body of your html:
+To get started, download and include the "payment sprite svg" in the body of your html:
+
     <?php include("assets/svg/payment-sprite.svg"); ?>
 
-    Start using the icons as following:
+Start using the icons as following:
 
-    <svg viewBox="0 0 50 50" class="payment-icons">
+    <svg viewBox="0 0 50 50" class="icon">
+        <use xlink:href="#visa"></use>
+    </svg>
+
+For larger icons you can extend the classes with "icon-2x" or "icon-4x"
+
+    <svg viewBox="0 0 50 50" class="icon icon-2x">
         <use xlink:href="#visa"></use>
     </svg>
 
@@ -27,25 +34,31 @@ Sharp svg icons of several payment possibilities that every webshop needs.
 - [x] QR-code
 - [x] KBC-mobile/CBC-mobile
 - [x] Google Wallet
+- [x] ING Homepay
+- [x] Belfius Direct Net
+- [x] Giropay
+- [x] Sofort Banküberweisung
 
 ## Upcoming icons
-- [ ] ING Homepay
-- [ ] Belfius Direct Net
-- [ ] Giropay
-- [ ] Sofort überwersung
 - [ ] 3D secure
 - [ ] Securecode
 - [ ] Afterpay
 
+# Logo/Payment Guidelines
+
+- Mastercard https://brand.mastercard.com/brandcenter/mastercard-brand-mark.html
+- Sofort/Klarna: https://developer.klarna.com/en/de/kpm/updating-to-the-new-brand
+
+
 ## Contribute
 
-    Fork the github repository `https://github.com/kingjohnny/payment-iconset.git`.
+Fork the github repository `https://github.com/kingjohnny/payment-iconset.git`.
 
 ## Support
-    If you are having issues, please let us know through git-issues
+If you are having issues, please let us know through git-issues
 
 ## Creator
-    Berkmans Johnny <johnny@thinktomorrow.be>
+Berkmans Johnny <johnny@thinktomorrow.be>
 
 ## License
-    The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
