@@ -23,94 +23,108 @@
     <main class="icons --raised inset-xl">
         <h2>Payment icons</h2>
         <section class="row">
-                <div class="column-3">
+                <div class="column-3 center-y">
                     <svg viewBox="0 0 50 50" class="payment-icons">
                         <use xlink:href="#visa"></use>
                     </svg>
                 <p>Visa</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#paypal"></use>
                 </svg>
                 <p>Paypal</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#maestro"></use>
                 </svg>
                 <p>Maestro</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#bancontact"></use>
                 </svg>
                 <p>Bancontact</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#americanexpress"></use>
                 </svg>
                 <p>American Express</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#mastercard"></use>
                 </svg>
                 <p>Mastercard</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#ideal"></use>
                 </svg>
                 <p>iDeal</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#transfer"></use>
                 </svg>
                 <p>Overschrijving</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#qrcode"></use>
                 </svg>
                 <p>QR-Code</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#kbc-mobile"></use>
                 </svg>
                 <p>KBC-mobile</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#cbc-mobile"></use>
                 </svg>
                 <p>CBC-mobile</p>
             </div>
 
-            <div class="column-3">
+            <div class="column-3 center-y">
                 <svg viewBox="0 0 50 50" class="payment-icons">
                     <use xlink:href="#wallet"></use>
                 </svg>
                 <p>Google Wallet</p>
             </div>
+
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#sofort"></use>
+                </svg>
+                <p>Sofort</p>
+            </div>
         </section>
 
-        <h2>Larger then life</h2>
+        <h2>Larger then life (x2)</h2>
         <section class="row">
             <svg viewBox="0 0 50 50" class="payment-icons icon-2x">
+                <use xlink:href="#visa"></use>
+            </svg>
+        </section>
+
+        <h2>Giant-size (x4)</h2>
+        <section class="row">
+            <svg viewBox="0 0 50 50" class="payment-icons icon-4x">
                 <use xlink:href="#visa"></use>
             </svg>
         </section>

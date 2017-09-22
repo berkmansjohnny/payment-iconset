@@ -3,7 +3,7 @@
     --color-ash: #bdc3c7;
     --color-truce: #FFF;
     --color-abyss: ##2c3e50;
-    --iconsize: 75px;
+    --iconsize: 35px;
     --transition: all 0.3s ease-in-out;
 }
 
@@ -26,6 +26,12 @@ h1, h2, h3{
 
 a{
     color: var(--color-primary);
+}
+
+.center-y{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header{
@@ -81,4 +87,9 @@ main.--raised{
 .icon-2x{
     width: calc(var(--iconsize)*2);
     height: calc(var(--iconsize)*2);
+}
+
+.icon-4x{
+    width: calc(var(--iconsize)*4);
+    height: calc(var(--iconsize)*4);
 }
