@@ -113,6 +113,13 @@
                 </svg>
                 <p>Sofort</p>
             </div>
+
+            <div class="column-3 center-y">
+                <svg viewBox="0 0 50 50" class="payment-icons">
+                    <use xlink:href="#belfius"></use>
+                </svg>
+                <p>Belfius</p>
+            </div>
         </section>
 
         <h2>Larger then life (x2)</h2>
