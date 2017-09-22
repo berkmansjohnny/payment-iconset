@@ -2,7 +2,7 @@
     --color-primary: #e74c3c;
     --color-ash: #bdc3c7;
     --color-truce: #FFF;
-    --color-abyss: ##2c3e50;
+    --color-abyss: #2c3e50;
     --iconsize: 75px;
     --transition: all 0.3s ease-in-out;
 }
@@ -23,7 +23,17 @@ html, body {
 h1, h2, h3{
     font-family: 'Bree Serif', serif;
 }
-
+h2, h3{
+    color: var(--color-abyss);
+}
+pre{
+    background: var(--color-ash);
+    color: var(--color-truce);
+    display: inline-block;
+    padding: 1em;
+    white-space: pre-line;
+    margin: 0;
+}
 a{
     color: var(--color-primary);
 }
@@ -71,10 +81,6 @@ main.--raised{
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
     0 6px 30px 5px rgba(0, 0, 0, 0.12),
     0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.ghost{
-    display: none;
 }
 
 .icon {

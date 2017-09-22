@@ -1,4 +1,6 @@
 <style>
+    .ghost{ display: none; }
+
     #visa .cls-1{fill:#0066b2;}
     #visa .cls-2{fill:#f9a533;}
 

@@ -21,6 +21,18 @@
         </div>
     </header>
     <main class="icons --raised inset-xl">
+        <h2>Usage</h2>
+        <p>To get started, download and include the "payment sprite svg" in the body of your html</p>
+        <pre>
+&lt;?php include("assets/svg/payment-sprite.svg"); ?&gt;
+        </pre>
+        <p>Start using the icons as following:</p>
+        <pre>
+&lt;svg viewBox="0 0 50 50" class="icon"&gt;
+    &lt;use xlink:href="#visa"&gt;&lt;/use&gt;
+&lt;/svg&gt;
+        </pre>
+        <p>You can define the logo of the payment-service you want, by defining the id of the xlink. <br>In this case we have #visa.</p>
         <h2>Payment icons</h2>
         <section class="row stack-l center">
                 <div class="column-3 center-y">
