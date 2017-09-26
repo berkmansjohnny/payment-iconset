@@ -27,11 +27,11 @@ h2, h3{
     color: var(--color-abyss);
 }
 pre{
-    background: var(--color-ash);
+    background: var(--color-abyss);
     color: var(--color-truce);
+    font-size: 0.75rem;
     display: inline-block;
     padding: 1em;
-    white-space: pre-line;
     margin: 0;
 }
 a{
@@ -72,7 +72,7 @@ header{
     color: var(--color-truce);
     position: relative;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     text-align: center;
 }
 .absolute-center{

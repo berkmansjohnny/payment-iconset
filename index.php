@@ -24,15 +24,13 @@
     <main class="icons --raised inset-xl">
         <h2>Usage</h2>
         <p>To get started, download and include the "payment sprite svg" in the body of your html</p>
-        <pre>
-&lt;?php include("assets/svg/payment-sprite.svg"); ?&gt;
-        </pre>
+        <pre>&lt;?php include("assets/svg/payment-sprite.svg"); ?&gt;</pre>
+
         <p>Start using the icons as following:</p>
-        <pre>
-&lt;svg viewBox="0 0 50 50" class="icon"&gt;
+
+        <pre>&lt;svg viewBox="0 0 50 50" class="icon"&gt;
     &lt;use xlink:href="#visa"&gt;&lt;/use&gt;
-&lt;/svg&gt;
-        </pre>
+&lt;/svg&gt;</pre>
         <p>You can define the logo of the payment-service you want, by defining the id of the xlink. <br>In this case we have #visa.</p>
         <h2>Payment icons</h2>
         <section class="row stack-l center">
@@ -193,14 +191,14 @@
 
         <h2>Larger then life (x2)</h2>
         <section class="row">
-            <svg viewBox="0 0 50 50" class="icon icon-2">
+            <svg viewBox="0 0 50 50" class="icon icon-2x">
                 <use xlink:href="#visa"></use>
             </svg>
         </section>
 
         <h2>Giant-size (x4)</h2>
         <section class="row">
-            <svg viewBox="0 0 50 50" class="icon icon-4">
+            <svg viewBox="0 0 50 50" class="icon icon-4x">
                 <use xlink:href="#visa"></use>
             </svg>
         </section>
