@@ -46,7 +46,7 @@
                 </p>
             </div>
                 <div class="column-4 center-y">
-                    <svg viewBox="0 0 200 50" class="icon">
+                    <svg viewBox="0 0 50 50" class="icon">
                         <use xlink:href="#multisafepay"></use>
                     </svg>
                 <p>
@@ -55,7 +55,7 @@
                 </p>
             </div>
                 <div class="column-4 center-y">
-                    <svg viewBox="0 0 200 50" class="icon">
+                    <svg viewBox="0 0 70 20" class="icon">
                         <use xlink:href="#mollie"></use>
                     </svg>
                 <p>
