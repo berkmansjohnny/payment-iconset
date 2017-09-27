@@ -29,7 +29,6 @@ h2, h3{
 pre{
     background: var(--color-abyss);
     color: var(--color-truce);
-    font-size: 0.75rem;
     display: inline-block;
     padding: 1em;
     margin: 0;

@@ -7,9 +7,10 @@
 
     <title>Payment icons</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/warpaint@0.0.9/dist/warpaint.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/warpaint@0.0.9/dist/warpaint.min.css" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Source+Sans+Pro:300" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/warpaint.min.css" type="text/css">
 
 </head>
 <body>
@@ -18,193 +19,277 @@
         <div class="title absolute-center">
             <h1>Payment icons</h1>
             <p>Your iconset. Ready-to-use.</p>
-            <a href="https://github.com/kingjohnny/payment-iconset/archive/master.zip" class="font-s">Download the icon-set</a>
+            <a href="https://github.com/kingjohnny/payment-iconset/archive/master.zip" class="font-s">Download the complete icon-set</a>
         </div>
     </header>
     <main class="icons --raised inset-xl">
         <h2>Usage</h2>
         <p>To get started, download and include the "payment sprite svg" in the body of your html</p>
-        <pre>&lt;?php include("assets/svg/payment-sprite.svg"); ?&gt;</pre>
+        <pre class="font-xs">&lt;?php include("assets/svg/payment-sprite.svg"); ?&gt;</pre>
 
         <p>Start using the icons as following:</p>
 
-        <pre>&lt;svg viewBox="0 0 50 50" class="icon"&gt;
+        <pre class="font-xs">&lt;svg viewBox="0 0 50 50" class="icon"&gt;
     &lt;use xlink:href="#visa"&gt;&lt;/use&gt;
 &lt;/svg&gt;</pre>
-        <p>You can define the logo of the payment-service you want, by defining the id of the xlink. <br>In this case we have #visa.</p>
+        <p>You can define the logo of the payment-service you want, by defining the id of the xlink. </p>
+        <h2>Payment Providers</h2>
+
+        <section class="row stack-l">
+                <div class="column-4 center-y">
+                    <svg viewBox="0 0 200 65" class="icon">
+                        <use xlink:href="#ingenico"></use>
+                    </svg>
+                <p>
+                    Ingenico<br>
+                    <code class="font-s">xlink:href="#ingenico"</code>
+                </p>
+            </div>
+                <div class="column-4 center-y">
+                    <svg viewBox="0 0 200 50" class="icon">
+                        <use xlink:href="#multisafepay"></use>
+                    </svg>
+                <p>
+                    Multisafepay<br>
+                    <code class="font-s">xlink:href="#multisafepay"</code>
+                </p>
+            </div>
+                <div class="column-4 center-y">
+                    <svg viewBox="0 0 200 50" class="icon">
+                        <use xlink:href="#mollie"></use>
+                    </svg>
+                <p>
+                    Mollie<br>
+                    <code class="font-s">xlink:href="#mollie"</code>
+                </p>
+            </div>
+        </section>
         <h2>Payment icons</h2>
         <section class="row stack-l center">
-                <div class="column-3 center-y">
+                <div class="column-4 center-y">
                     <svg viewBox="0 0 50 50" class="icon">
                         <use xlink:href="#visa"></use>
                     </svg>
-                <p>Visa</p>
+                <p>
+                    Visa<br>
+                    <code class="font-s">xlink:href="#visa"</code>
+                </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#maestro"></use>
                 </svg>
-                <p>Maestro</p>
+                <p>Maestro<br>
+                <code class="font-s">xlink:href="#maestro"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#mastercard"></use>
                 </svg>
-                <p>Mastercard</p>
+                <p>Mastercard<br>
+                <code class="font-s">xlink:href="#mastercard"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#bancontact"></use>
                 </svg>
-                <p>Bancontact</p>
+                <p>Bancontact<br>
+                <code class="font-s">xlink:href="#bancontact"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#transfer-en"></use>
                 </svg>
-                <p>Transfer</p>
+                <p>Transfer<br>
+                <code class="font-s">xlink:href="#tansfer-en"</code>
+            </p>
             </div>
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#transfer-nl"></use>
                 </svg>
-                <p>Overschrijving</p>
+                <p>Overschrijving<br>
+                <code class="font-s">xlink:href="#transfer-nl"</code>
+            </p>
             </div>
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#transfer-fr"></use>
                 </svg>
-                <p>Virement bancaire</p>
+                <p>Virement bancaire<br>
+                <code class="font-s">xlink:href="#transfer-fr"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#paypal"></use>
                 </svg>
-                <p>Paypal</p>
+                <p>Paypal<br>
+                <code class="font-s">xlink:href="#paypal"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#kbc-mobile"></use>
                 </svg>
-                <p>KBC-mobile</p>
+                <p>KBC-mobile<br>
+                <code class="font-s">xlink:href="#kbc-mobile"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#cbc-mobile"></use>
                 </svg>
-                <p>CBC-mobile</p>
+                <p>CBC-mobile<br>
+                <code class="font-s">xlink:href="#cbc-mobile"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#americanexpress"></use>
                 </svg>
-                <p>American Express</p>
+                <p>American Express<br>
+                <code class="font-s">xlink:href="#americanexpress"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#ideal"></use>
                 </svg>
-                <p>iDeal</p>
+                <p>iDeal<br>
+                <code class="font-s">xlink:href="#ideal"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#qrcode"></use>
                 </svg>
-                <p>QR-Code</p>
+                <p>QR-Code<br>
+                <code class="font-s">xlink:href="#qrcode"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#wallet"></use>
                 </svg>
-                <p>Google Wallet</p>
+                <p>Google Wallet<br>
+                <code class="font-s">xlink:href="#wallet"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#sofort"></use>
                 </svg>
-                <p>Sofort</p>
+                <p>Sofort<br>
+                <code class="font-s">xlink:href="#sofort"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#belfius"></use>
                 </svg>
-                <p>Belfius</p>
+                <p>Belfius<br>
+                <code class="font-s">xlink:href="#belfius"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#giropay"></use>
                 </svg>
-                <p>Giropay</p>
+                <p>Giropay<br>
+                <code class="font-s">xlink:href="#giropay"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#ing-homepay"></use>
                 </svg>
-                <p>Ing homepay</p>
+                <p>Ing homepay<br>
+                <code class="font-s">xlink:href="#ing-homepay"</code>
+            </p>
             </div>
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#ing-homepay-alt"></use>
                 </svg>
-                <p>Ing homepay alt</p>
+                <p>Ing homepay alt<br>
+                <code class="font-s">xlink:href="#ing-homepay-alt"</code>
+            </p>
             </div>
 
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#klarna-now"></use>
                 </svg>
-                <p>Klarna Pay now</p>
+                <p>Klarna Pay now<br>
+                <code class="font-s">xlink:href="#klarna-now"</code>
+            </p>
             </div>
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#klarna-sliceit"></use>
                 </svg>
-                <p>Klarna Pay now</p>
+                <p>Klarna Pay now<br>
+                <code class="font-s">xlink:href="#klarna-sliceit"</code>
+            </p>
             </div>
-            <div class="column-3 center-y">
+            <div class="column-4 center-y">
                 <svg viewBox="0 0 50 50" class="icon">
                     <use xlink:href="#klarna-paylater"></use>
                 </svg>
-                <p>Klarna Pay Later</p>
+                <p>Klarna Pay Later<br>
+                <code class="font-s">xlink:href="#klarna-paylater"</code>
+            </p>
             </div>
 
-            <div class="row">
+        </section>
 
-
+        <h2>Larger then life</h2>
+        <section class="row">
+                <p>To use a larger icon, you can simply extend the classes with <code>icon-2x</code> or <code>icon-4x</code> </p>
+            <div class="column-12 center-y">
+                <svg viewBox="0 0 50 50" class="icon icon-2x">
+                    <use xlink:href="#visa"></use>
+                </svg>
+<br>
+                <pre class="font-xs">
+&lt;svg viewBox="0 0 50 50" class="icon icon-2x"&gt;
+    &lt;use xlink:href="#visa"&gt;&lt;/use&gt;
+&lt;/svg&gt;</pre>
             </div>
-        </section>
 
-        <h2>Larger then life (x2)</h2>
-        <section class="row">
-            <svg viewBox="0 0 50 50" class="icon icon-2x">
-                <use xlink:href="#visa"></use>
-            </svg>
-        </section>
-
-        <h2>Giant-size (x4)</h2>
-        <section class="row">
+        <div class="column-12 center-y">
             <svg viewBox="0 0 50 50" class="icon icon-4x">
                 <use xlink:href="#visa"></use>
             </svg>
+            <br>
+            <pre class="font-xs">
+&lt;svg viewBox="0 0 50 50" class="icon icon-4x"&gt;
+    &lt;use xlink:href="#visa"&gt;&lt;/use&gt;
+&lt;/svg&gt;</pre>
+</div>
         </section>
 
         <h2>Let's get started</h2>
-        <a href="https://github.com/kingjohnny/payment-iconset/archive/master.zip">Download the icon-set</a>
+        <a href="https://github.com/kingjohnny/payment-iconset/archive/master.zip">Download the complete icon-set</a>
     </main>
 </body>
 </html>
