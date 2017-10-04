@@ -43,6 +43,10 @@ a{
     justify-content: flex-start;
 }
 
+.logo{
+    max-width: 75px;
+}
+
 header{
     background: var(--color-primary);
     color: var(--color-truce);
