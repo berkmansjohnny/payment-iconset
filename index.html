@@ -12,9 +12,12 @@
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="assets/css/warpaint.min.css" type="text/css">
 
+      <script src="https://www.w3schools.com/lib/w3data.js"></script>
+
 </head>
 <body>
-    <?php include("assets/svg/payment-sprite.svg"); ?>
+    <div w3-include-html="assets/svg/payment-sprite.svg"></div>
+
     <header class="hero row">
         <div class="title absolute-center">
             <svg viewBox="0 0 25 25" class="logo">
@@ -54,10 +57,10 @@
         <h2>Payment Service Providers</h2>
 
         <section class="row stack-l">
-                <div class="column-4 center-y">
-                    <svg viewBox="0 0 200 65" class="icon">
-                        <use xlink:href="#ingenico"></use>
-                    </svg>
+            <div class="column-4 center-y">
+                <svg viewBox="0 0 200 65" class="icon">
+                    <use xlink:href="#ingenico"></use>
+                </svg>
                 <p>
                     Ingenico<br>
                     <code class="font-s">xlink:href="#ingenico"</code>
@@ -306,5 +309,9 @@
 </div>
         </section>
     </main>
+
+<script>
+    w3IncludeHTML();
+</script>
 </body>
 </html>
