@@ -44,6 +44,12 @@ For larger icons you can extend the classes with "icon-2x" or "icon-4x"
 - [ ] Securecode
 - [ ] Afterpay
 
+## Payment providers
+- [x] Ingenico
+- [x] Multisafepay
+- [x] Mollie
+- [ ] Stripe
+
 # Logo/Payment Guidelines
 
 - Mastercard https://brand.mastercard.com/brandcenter/mastercard-brand-mark.html
