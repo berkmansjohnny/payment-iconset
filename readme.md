@@ -38,11 +38,11 @@ For larger icons you can extend the classes with "icon-2x" or "icon-4x"
 - [x] Belfius Direct Net
 - [x] Giropay
 - [x] Sofort Banküberweisung
+- [X] Afterpay
 
 ## Upcoming icons
 - [ ] 3D secure
 - [ ] Securecode
-- [ ] Afterpay
 
 ## Payment providers
 - [x] Ingenico
